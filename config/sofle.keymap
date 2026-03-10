@@ -67,8 +67,8 @@
             display-name = "lower";
             bindings = <
 &trans    &trans   &trans   &trans      &trans      &trans                    &kp RA(N1)    &kp RA(NUMBER_3)  &trans            &trans       &trans        &kp DEL
-&trans    &trans   &trans   &trans      &trans      &trans                    &trans        &kp MINUS         &kp LS(DOT)       &kp GRAVE    &kp LS(COMMA) &kp RA(N1)
-&trans    &trans   &trans   &trans      &trans      &trans                    &kp LS(RBKT)  &kp RBKT          &kp RA(B)         &kp RA(N)    &kp EQUAL     &kp RA(SQT)
+&trans    &trans   &trans   &trans      &trans      &trans                    &kp RA(N1)    &kp MINUS         &kp LS(DOT)       &kp GRAVE    &kp LS(COMMA) &kp EXCL
+&trans    &trans   &trans   &trans      &trans      &trans                    &kp LS(RBKT)  &kp RBKT          &kp RA(B)         &kp RA(N)    &kp PIPE      &kp EQUAL
 &trans    &trans   &trans   &trans      &trans      &trans  &trans    &trans  &kp RA(F)     &kp RA(G)         &kp RA(COMMA)     &kp RA(DOT)  &kp NUMBER_1  &trans
                    &trans   &trans      &trans      &trans  &trans    &trans  &trans        &trans            &trans            &trans
             >;
