@@ -17,10 +17,12 @@
 #define FN 4
 
 
+#if !IS_ENABLED(CONFIG_SHIELD_SOFLE_DONGLE)
 &kscan0 {
     debounce-press-ms = <8>;
     debounce-release-ms = <8>;
 };
+#endif
 
 / {
     // Activate ADJUST layer by pressing raise and lower
